@@ -11,6 +11,7 @@ const app = express();
 // create a new Apollo server and pass in our schema data
 let server = null;
 
+
 async function startServer() {
     server = new ApolloServer({
         typeDefs,
